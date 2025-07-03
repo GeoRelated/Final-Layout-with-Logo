@@ -1,0 +1,71 @@
+/* Reset default margin/padding */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin-right: 750px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+main {
+  padding: 40px;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-left: 50px;
+
+}
+
+.image-item {
+  width: 300px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin-top: 500px;
+}
+
+.footer-logo {
+  height: 50px;
+  width: auto;
+  margin-bottom: 10px;
+}
